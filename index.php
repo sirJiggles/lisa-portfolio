@@ -38,7 +38,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favicons/144.png" />
         
         <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/print.css" media="print" type="text/css"/>
+        <link rel="stylesheet" href="assets/css/screen.css" media="screen" type="text/css"/>
         
               
         <!--Google fonts -->
@@ -54,15 +54,30 @@
 
         <div id="site-wrapper">
 
-            <header role="banner">
-                
-            </header>
+            <div class="full-row leopad-row site-header">
+                <header role="banner" class="row">
+                    <div class="grid-12">
+                        <h1>Lisa Jungen</h1>
+                    </div>
+                </header>
+            </div>
 
             <!-- START OF THE GALLERY ROW -->
-            <div class="row">
-                <section class="flexslider">
-
-                </section>
+            <div class="full-row gallery-row">
+                <div class="row">
+                    <section class="flex-container">
+                        <div class="gallery">
+                            <ul class="slides">
+                                <li><img src="/assets/img/gallery/small/1.jpg" data-high-res="/assets/img/gallery/large/1.jpg" /></li>
+                                <li><img src="/assets/img/gallery/small/2.jpg" data-high-res="/assets/img/gallery/large/2.jpg" /></li>
+                                <li><img src="/assets/img/gallery/small/1.jpg" data-high-res="/assets/img/gallery/large/1.jpg" /></li>
+                                <li><img src="/assets/img/gallery/small/2.jpg" data-high-res="/assets/img/gallery/large/2.jpg" /></li>
+                                <li><img src="/assets/img/gallery/small/1.jpg" data-high-res="/assets/img/gallery/large/1.jpg" /></li>
+                                <li><img src="/assets/img/gallery/small/2.jpg" data-high-res="/assets/img/gallery/large/2.jpg" /></li>    
+                            </ul>
+                        </div>
+                    </section>
+                </div>
             </div>
             <!-- END OF THE GALLERY ROW -->
 

@@ -47,6 +47,22 @@ body {
     }
 }
 
+// Various rows
+.full-row{
+    @include block-left;
+    width:100%;
+}
+
+.leopad-row{
+    background:url('/assets/img/tiles/leopad.png') repeat 0 0;
+    @include box-shadow(inset #000 0px -5px 7px -5px);
+}
+
+.gallery-row{
+    background:url('/assets/img/tiles/gallery.png') repeat 0 0;
+    @include box-shadow(#000 0px -5px 7px -5px);
+}
+
 .clear-both{
     clear:both;
     font-size:0px;

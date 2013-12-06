@@ -13,10 +13,12 @@ var appVars = {
  * 
  * require any libraries using juicer
  * 
- * @depends vendor/jquery-1.8.2.min.js
+ * @depends vendor/jquery-1.10.2.min.js
  * @depends vendor/jquery.flexslider-min.js
  * @depends app-functions.js
+ * @depends ../modules/gallery/js/script.js
  */
+
 
 $(window).ready(function () {
     
@@ -30,6 +32,8 @@ $(window).ready(function () {
 
 $(window).load(function(){
     // External link class JS
-    externalLinks();
+    //externalLinks();
+
+    resizeWindowCallback();
    
 });
